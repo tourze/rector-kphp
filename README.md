@@ -1,1 +1,1 @@
-# rector-kphp
+# Rector Rules for KPHP
