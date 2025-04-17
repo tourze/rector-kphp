@@ -7,7 +7,8 @@
     "rector/rector-src": "^2.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "^10.0"
+    "phpunit/phpunit": "^10.0",
+    "phpstan/phpstan": "^2.1"
   },
   "license": "MIT",
   "autoload": {
@@ -19,5 +20,8 @@
     "psr-4": {
       "Tourze\\Rector4KPHP\\Tests\\": "tests/"
     }
+  },
+  "scripts": {
+    "phpstan": "phpstan analyse src -l 1"
   }
 }
