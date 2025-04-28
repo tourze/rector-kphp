@@ -4,7 +4,9 @@
   "type": "library",
   "require": {
     "php": "^8.1",
-    "rector/rector": "^2.0"
+    "nikic/php-parser": "^5.3.0",
+    "rector/rector": "^2.0",
+    "webmozart/assert": "^1.11"
   },
   "require-dev": {
     "phpstan/phpstan": "^2.1",
