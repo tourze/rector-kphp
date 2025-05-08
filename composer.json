@@ -2,6 +2,7 @@
   "name": "tourze/rector-kphp",
   "description": "",
   "type": "library",
+  "license": "MIT",
   "require": {
     "php": "^8.1",
     "nikic/php-parser": "^5.3.0",
@@ -12,7 +13,6 @@
     "phpstan/phpstan": "^2.1",
     "phpunit/phpunit": "^10.0"
   },
-  "license": "MIT",
   "autoload": {
     "psr-4": {
       "Tourze\\Rector4KPHP\\": "src/"
