@@ -1,1 +1,0 @@
-# Rector Rules for KPHP
